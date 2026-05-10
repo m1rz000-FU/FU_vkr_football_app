@@ -1,0 +1,10 @@
+{
+  "name": "footstat",
+  "private": true,
+  "description": "Корневые скрипты: Flask + Vite для LAN / iPhone",
+  "scripts": {
+    "dev": "bash scripts/dev-lan.sh",
+    "dev:api": "bash -c 'test -x .venv/bin/python && exec .venv/bin/python app.py || exec python3 app.py'",
+    "dev:web": "cd football-stats && npm run dev"
+  }
+}
